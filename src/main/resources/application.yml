@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: test    #java -jar xxx.jar --spring.profiles.active=prod启动覆盖application.yml配置

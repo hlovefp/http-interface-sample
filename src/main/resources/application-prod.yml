@@ -1,0 +1,7 @@
+server:
+  port: 9008          # http端口，默认8080
+  context: test       # http://localhost:8080/test,默认是/
+
+logging:
+  path: /home/logs
+  

@@ -1,0 +1,14 @@
+#debug: true   # debug模式开发代码
+
+server:
+  port: 9008          # http端口，默认8080
+  servlet:            # Springboot2变成server.servlet.contextPath
+    contextPath: /sample  # http://localhost:9008/sample,默认是/
+
+logging:
+  path: /home/logs    # 默认会在设置的 path 生成一个 spring.log 文件
+  level:
+    root: INFO        # warn级别输出
+    com:
+      hfp: DEBUG      # com.hfp包下的日志以DEBUG级别输出
+
